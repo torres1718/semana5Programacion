@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Almac from '../views/Almac.vue'
+import Longi from '../views/Longi.vue'
+import Mas from '../views/Mas.vue'
+import Mone from '../views/Mone.vue'
+import Tiem from '../views/Tiem.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +13,32 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+  },
+  {
+    path: '/almac',
+    name: 'Almac',
+    component: Almac,
+  },
+  {
+    path: '/longi',
+    name: 'Longi',
+    component: Longi,
+  },
+  {
+    path: '/mas',
+    name: 'Mas',
+    component: Mas,
+  },
+  {
+    path: '/mone',
+    name: 'Mone',
+    component: Mone,
+  },
+  {
+    path: '/tiem',
+    name: 'Tiem',
+    component: Tiem,
   },
   {
     path: '/about',
